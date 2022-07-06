@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}Order Submitted{% endblock %}
+
+{% block head %}
+<!--Here Goes all that has to be in head!-->
+{% endblock %}
+
+{% block content %}
+<div class="content column-one">
+    <h1>Your Order has been received!</h1>
+    <a href="/">Return Back!</a>
+
+</div>
+<div class="content column-two">
+    <ul>
+    {% for key,value in form_data.items() %}
+    <li>
+    <h2 class="small"> {{key}} </h2>
+    <p class="small"> {{value}}</p>
+    </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endblock %}
