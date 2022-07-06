@@ -1,0 +1,21 @@
+/* Colossal Markets Style Sheet by JP */
+
+* {box-sizing: border-box;}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+/* Headrer */
+li{ display: inline;}
+.header{background-color: #9fdbf3;padding: 30px;text-align:center;font-size: 35px;}
+.top-a {color:black;background-color:white;border:1px solid white;text-decoration:none;font-size:30px;border-radius:10px;}
+
+
+/* Content */
+.content {float:left;width:50%;padding:10px;height:500px;}
+div.column-one{background-color: #b48a53}
+div.column-two{background-color: #9b733f}
+
+/* Footer */
+.footer{background-color: #f1f1f1;padding:10px;text-align:center;}
+
+/* In line */
+.small {font-size:20px;padding: 0px; margin:7px;}
